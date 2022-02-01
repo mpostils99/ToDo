@@ -1,0 +1,361 @@
+body {
+    background-color: #E5E5E5;
+    font-family: Roboto, medium;
+    display: inline;
+}
+#container2 {
+    float: left;
+  
+    margin-top: 130px;
+    margin-left: 75px;
+}
+.div-1{ 
+    background-color: #ffffff;
+    width: 396px;
+    display: inline-block;
+    height: 100vh;
+    margin: 15px 15px 15px 15px;
+}
+
+
+#container1 {
+    float: left;
+    height: 100vh;
+    margin-top: 130px;
+    margin-left: 75px;
+    margin-right: 100px;
+}
+
+.checkbox1{
+    display : block;
+    float: left;
+    background-color: white;
+    width: 88px;
+    height: 88px;
+    
+  
+}
+
+.parte2{
+    display : block;
+    border-top: 100px;
+    margin-left: 8px;
+    float: left;
+    background-color: white;
+    width: 800px;
+    height: 88px;
+    border-bottom: 35px;
+    border-top: 200px;
+}
+
+
+#checkbox1{
+    margin-left:29px;
+    margin-top: 29px;
+}
+
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    margin-left:29px;
+    margin-top: 29px;
+}
+
+
+#textTodo{
+    color: black;
+    top: 100px;
+    left: 100px;
+}
+
+.boton-addTodo{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:#6247aa;
+    border-color: #d8d8d8;
+    border-radius: 5px;
+    margin-top: 34px;
+}
+
+#FotoGran{
+margin-left:12px;
+margin-top: 42px;
+width: 111px;
+height: 111px;
+
+}
+
+
+#icono1{
+    float: left;
+    margin-top: 62px;
+    margin-right: 20px;
+    margin-left:25px ;
+}
+#textToday{
+    float: left;
+    margin-top: 57px;
+    margin-right: 75%px;
+}
+
+#icono2{
+    float: left;
+    margin-top: 100px;
+    margin-left: -105px;
+}
+#allDuties{
+    float: left;
+    margin-top: 100px;
+    margin-left: -65px;
+    
+}
+#icono3{
+    float: left;
+    margin-top: 140px;
+    margin-left: -140px;
+}
+#categories{
+    float: left;
+    margin-top: 140px;
+    margin-left: -100px;
+  
+}
+#categories,
+#allDuties,
+#textToday{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+
+
+
+.select{
+    display: inline;
+}
+
+#SelectAll {
+
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    border: none;
+margin-top: 34px;
+    background-color: #AAA1C8;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 30px;
+   
+}
+#SelectAll:hover{
+    color: honeydew;
+    background-color: #6247AA;}
+
+.select[img]{
+    margin-top: 34px;
+    margin-right: 40px;
+    float: left;
+}
+
+/*desde harry*/
+
+#searchBar {
+   margin-top: 88px;
+    background: rgba(170, 161, 200, 0.25);
+    width: 366px;
+    height: 50px;
+    
+    float: right;
+    border-radius: 5px;
+    border: 1px solid #dedce7;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+
+.searchEngine::after {
+    margin-top: 90px;
+    content: '🔍';
+    float: right;
+    top: 7px;
+    right: 15px;
+}
+
+
+
+
+#color{
+    float: left;
+    padding-left: 23px;
+    background-color: rgba(170, 161, 200, 0.25);
+    border:none;
+    border-radius: 5px;
+    
+}
+
+#categoryName{
+    float: left;
+padding-left:8px ;
+
+
+}
+#catName{
+    background-color: rgba(170, 161, 200, 0.25);
+    border:none;
+    border-radius: 5px;
+}
+#submitCategoryButton{
+    float: left;
+    padding-left:8px ;
+    background-color: rgba(170, 161, 200, 0.25);
+    border:none;
+    border-radius: 5px;
+
+}
+#createCategory{
+    display: block;
+    margin-top: 340px;
+    padding-left:8px 
+  
+}
+#submitCat{
+    padding-left: 100px;
+}
+#catTableDiv{
+    padding-top: 35px;
+    display: block;
+    padding-left: 66px;
+    margin-top: 240px;
+    
+}
+
+/*Hasta harry*/
+
+
+#fotoTask{
+    width: 47px;
+    height: 47px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+#titolTask{ 
+float:left;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+margin-left: 33px;
+}
+#dateTask{
+    margin-left: 33px;
+    float:right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 14px;
+    margin-top: 21px;
+   
+    
+}
+#descriptionTask{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#CategoryValue{
+    margin-left: 33px;
+    float:right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 14px;
+    margin-top: 68px;
+}
+
+#buttonSelectAll{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    border: none;
+    background-color: #AAA1C8;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 172px;
+    height: 56px;
+    margin-bottom: 20px;
+    
+}
+#buttonSelectAll:hover{
+background-color: #6247AA;
+}
+#buttonTick{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    border: none;
+    background-color: #C6C6C6;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 56px;
+    height: 56px;
+    margin-left: 42px;
+    width: 56px;
+    height: 56px;
+    
+}
+#buttonTick:hover,
+#buttonDelete:hover{
+    background-color: #8B74D8;
+
+}
+.parteSuperior1{
+    display: inline-block;
+    margin-top: 6px;
+}
+#icono22{
+    float: left;
+    padding-top: 25px;
+}
+#Duties{
+    float: left;
+    margin-left: 50px;
+}
+#buttonDelete{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    border: none;
+    background-color: #C6C6C6;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 12px;
+    width: 56px;
+    height: 56px;
+    
+}
