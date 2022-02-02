@@ -9,3 +9,11 @@ Concepts developed in this project:
 - Use of Normalize.
 - Use of localStorage to store tasks and any data related to the app.
 - Use of Node.js to view the rendered website and interact with it.
+
+Commands to compile:
+
+1. npm install
+
+2. npm run build
+
+3. npm start
